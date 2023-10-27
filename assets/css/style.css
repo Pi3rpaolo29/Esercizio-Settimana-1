@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+/*Per TUTTI*/
+html {
+    background-color: #fff;
+    font-size: 1.2em;
+}
+
+/*BODY*/
+body{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*HEADER*/
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+header img {
+    width: 10rem;
+}
+
+/*ARTICLE*/
+
+.article {
+    height: 24rem;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+
+article h1 {
+    color: #29a1cb;
+    font-size: 2.3em;
+    line-height: 1em;
+    padding: 1.7em 0 0.7em 0;
+    font-weight: bold;
+}
+
+article:first-of-type p {
+    padding: 0 2em 2.3em 2em;
+}
+
+article button {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 2em;
+    background-color: #e52d13;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*SECTION*/
+
+section{
+    background-color: #fff;
+}
+
+.container{
+    padding: 2em 0 3em 0;
+}
+.container section{
+    padding: 0.7em 2.6em 1.2em 2em;
+    font-size: 1.1em;
+}
+
+.container section h2 {
+    color: 29a1cb;
+    font-weight: bold;
+}
+
+/* foto cerchio*/
+.container2 {
+   
+    background-image: url(../img/notebook.jpg);
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    outline-offset: 10px;
+    margin: auto;
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
+
+/*PARTE ARANCIO*/
+
+
+.container3 {
+    background-color: #e52d13;
+    color: #fff;
+    padding:2em 1em 1em 1em;
+    height: 17em;
+}
+
+.container3 h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 0 1em 0;
+}
+
+.container3 > p {
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 1.5em ;
+}
+
+.container3 div p:first-of-type {
+    font-size: 1.2em;
+}
+
+.container3 div p:last-of-type {
+    font-size: 0.8em;
+}
+
+/*Parte dopo arancio la parte bianca*/
+
+aside{
+    width: 450px;
+    text-align: center;
+    padding: 1.8em ;
+    box-sizing: border-box;
+}
+
+aside div {
+    border:1px solid  #e4e6e9;
+    margin-bottom: 1.8em;
+
+}
+aside div h4{
+    padding: 1.2em 0 0.6em 0;
+    color: #29a1cb;
+    font-weight: bold;
+}
+aside p {
+    padding-bottom: 1.7em;
+}
+
+/*FOOTER*/
+
+footer {
+    color: #ffffffad;
+    background-color: #269ec1;
+    height: 19em;
+}
+footer p:first-of-type {
+    color: #fffffff5;
+    font-weight: bold;
+    font-size:2em;
+    padding: 0.8em 0 0.6em 0;
+}
+footer a{
+    color: #ffffffad;
+}
+footer address {
+    padding-bottom: 1em;
+    border-bottom:0.1em solid #fff;
+}
+
+footer p:last-of-type {
+    padding-top: 1.2em;
+}
+
